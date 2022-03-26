@@ -259,7 +259,7 @@ samp {
 
 pre {
   display: block;
-  margin-top: 0;
+  margin-top: 0rem;
   margin-bottom: 1rem;
   overflow: auto;
   font-size: 0.875em;
@@ -2256,7 +2256,7 @@ progress {
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 .form-control::file-selector-button {
-  padding: 0.375rem 0.75rem;
+  padding: 0.75rem 0.75rem;
   margin: -0.375rem -0.75rem;
   -webkit-margin-end: 0.75rem;
           margin-inline-end: 0.75rem;
@@ -11285,4 +11285,16 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+
+.icon-social-google:before { 
+  content: "\e60d";
+}
+
+.icon-social-linkedin:before {
+  content: "\e60a";
+}
+
+.icon-social-github:before {
+  content: "\e60c";
 }

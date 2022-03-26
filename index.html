@@ -10,17 +10,19 @@
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <!-- FontAwesome icon-->
+        <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <!-- Responsive navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
-                <a class="navbar-brand" href="#">Saw's Portfolio</a>
+                <a class="navbar-brand" href="index.html">Saw's Portfolio</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="Aboutme.html">About</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -36,28 +38,48 @@
             </div>
 
             <div>
-                <h2>Telco Customer Churn Prediction</h2>
-                <p>Analyze customers churn rate and contribution factors, also build a machine learning for churn prediction.
+                <h2>Telco Customer Churn Prediction - Will the customer leave or stay?</h2>
+                <p>Mayn telco companies are facing competitive market nowadays. It is required to understand the market's need for an effective business strategy. Analyze the features and assess the correlation between them, using decision tree for churn prediction.
                 </p>
+                <p id="telco-customer-churn-prediction-tools" class="card-text">
+                    <span class="badge badge-pill text-primary border border-primary ml-1">Python</span>
+                    <span class="badge badge-pill text-primary border border-primary ml-1">Supervised Learning</span>
+                    <span class="badge badge-pill text-primary border border-primary ml-1">Classification</span>
+                </p>                
                 <img src="assets/telco_churn_dt.png" class='img-fluid' />
+                <a class="btn btn-xxl btn outline-dark me-4">
                 <form action="https://colab.research.google.com/drive/1wkHggUTQeBEi1HM1emOoVxAuVxZdtqCL?usp=sharing" methods="post" target="_blank">
                     <input type="submit" value="View Source Code" />
                 </form>
+                </a>
              </div>
 
              <div>
-                <h2>Social Media Ads Forecasting</h2>
-                <p>Exploratory Data Analysis (EDA) on social media ads platform and model with liner regression for sales forecast.
+                <h2>Social Media Ads Forecasting - Marketing Strategy</h2>
+                <p>Effective marketing strategy is essential to address customer's demands. By evaluating of an ads on social media platforms like Facebook, Google and Instagram, it is vital to ensure the business is applying the right strategy.
+                </p>
+                <p id="social-media-ads-forecasting-tools" class="card-text">
+                    <span class="badge badge-pill text-primary border border-primary ml-1">Python</span>
+                    <span class="badge badge-pill text-primary border border-primary ml-1">Supervised Learning</span>
+                    <span class="badge badge-pill text-primary border border-primary ml-1">Regression</span>
                 </p>
                 <img src="assets/social_ads_regplot.png" class='img-fluid' />
+                
                 <form action="https://colab.research.google.com/drive/1_obmtjVitmrHbDaD2k4Se36-GP2RMIkV?usp=sharing" methods="post" target="_blank">
                     <input type="submit" value="View Source Code" />
-                </form>             
+                </form>
+                           
             </div>  
 
             <div>
                 <h2>Sentiment Analysis on Tripadvisor Reviews</h2>
                 <p>Customer reviews often pose important data for analysis. Using Natural Language Processing (NLP) to study the message behind the reviews. 
+                </p>
+                
+                <p id="sentiment-analysis-for-tripadvisor-reviews-tools" class="card-text">
+                    <span class="badge badge-pill text-primary border border-primary ml-1">Python</span>
+                    <span class="badge badge-pill text-primary border border-primary ml-1">Supervised Learning</span>
+                    <span class="badge badge-pill text-primary border border-primary ml-1">NLP</span>
                 </p>
                 <img src="assets/tripadvisor_wordcloud.png" class='img-fluid' />
                 <form action="https://colab.research.google.com/drive/1679JOXfFACqCasFRsgETnJjQ3uwOQT0a?usp=sharing" methods="post" target="_blank">
@@ -65,8 +87,22 @@
                 </form> 
             </div> 
 
-
-
+            <div>
+                <h2>HR Analytic Visualisation</h2>
+                <p>A good visualisation page is able to relay the message. This dashboard provides insight for HR analysis to resolve employee attrition rate.
+                </p>
+                <p id="hr-analytics-dashboard-tools" class="card-text">
+                    <span class="badge badge-pill text-primary border border-primary ml-1">Google Data Studio</span>
+                    <span class="badge badge-pill text-primary border border-primary ml-1">Data Analytics</span>
+                    <span class="badge badge-pill text-primary border border-primary ml-1">Data Visualization</span>
+                </p>
+                <img src="assets/HR_dataset.png" class='img-fluid' />
+                <a class="btn btn-xxl btn outline-dark me-4">
+                <form action="https://datastudio.google.com/reporting/779a9ad3-4194-40d6-8537-be28b1150a49" methods="post" target="_blank">
+                    <input type="submit" value="View Source Code" />
+                </form> 
+                </a>
+            </div> 
 
         </div>
         <!-- Bootstrap core JS-->
